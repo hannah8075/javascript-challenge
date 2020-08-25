@@ -9,4 +9,3 @@ Multiple input tags are used to set mutliple search filters. Searchable criteria
 -state
 -country
 -shape
-x
