@@ -79,3 +79,15 @@ function runEnter() {
         });
     });
 }
+
+function init() {
+    tableData.forEach(element => {
+        var row = tbody.append("tr");
+        //for each key, value pair in filtered data, append table data by appending value
+        Object.entries(element).forEach(([key,value]) => {
+            var td = row.append("td");
+            td.text(value);
+        });
+    });
+}
+init()
